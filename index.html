@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currecny convertor</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="currency-container">
+            <label for="1d2lira">Current 1 dollar to lira</label>
+            <div class="flex gap-half">
+                <input id="1d2lira" name="1d2lira" type="number" value="89000">
+            </div>
+        </div>
+        <div class="currency-container">
+            <label for="lira">Lira</label>
+            <div class="flex gap-half">
+                <input id="lira" name="lira" type="number">
+                <input type="button" value="Convert" name="button" id="lira-button" onClick="liraToOtherCurrencies()">
+            </div>
+        </div>
+        <div class="currency-container">
+            <label for="dollar">Dollar</label>
+            <div class="flex gap-half">
+                <input id="dollar" name="dollar" type="number">
+                <input type="button" value="Convert" name="button" id="dollar-button"
+                    onClick="dollarToOtherCurrencies()">
+            </div>
+        </div>
+        <div class="currency-container">
+            <label for="kd">Kuwait Dinar</label>
+            <div class="flex gap-half">
+                <input id="kd" name="kd" type="number">
+                <input type="button" value="Convert" name="button" id="kd-button" onClick="kdToOtherCurrencies()">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
