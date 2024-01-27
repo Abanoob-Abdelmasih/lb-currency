@@ -29,6 +29,10 @@ input[type="number"] {
   gap: 0.5rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .container {
   display: flex;
   justify-content: center;
