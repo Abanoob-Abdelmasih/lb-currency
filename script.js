@@ -35,3 +35,11 @@ function kdToOtherCurrencies() {
   document.getElementById("dollar").value = dollar;
   document.getElementById("lira").value = lira;
 }
+
+function reset(){
+
+  document.getElementById("dollar").value = 0;
+  document.getElementById("lira").value = 0;
+  document.getElementById("kd").value = 0;
+
+}
