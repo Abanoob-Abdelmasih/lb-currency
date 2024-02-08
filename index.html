@@ -20,14 +20,14 @@
         <div class="currency-container">
             <label for="lira">Lira</label>
             <div class="flex gap-half">
-                <input id="lira" name="lira" type="number">
+                <input id="lira" name="lira" type="number" placeholder="100">
                 <input type="button" value="Convert" name="button" id="lira-button" class="button " onClick="liraToOtherCurrencies()">
             </div>
         </div>
         <div class="currency-container">
             <label for="dollar">Dollar</label>
             <div class="flex gap-half">
-                <input id="dollar" name="dollar" type="number">
+                <input id="dollar" name="dollar" type="number" placeholder="100">
                 <input type="button" value="Convert" name="button" id="dollar-button" class="button "
                     onClick="dollarToOtherCurrencies()">
             </div>
@@ -35,9 +35,12 @@
         <div class="currency-container">
             <label for="kd">Kuwait Dinar</label>
             <div class="flex gap-half">
-                <input id="kd" name="kd" type="number">
+                <input id="kd" name="kd" type="number" placeholder="100">
                 <input type="button" value="Convert" name="button" id="kd-button" class="button " onClick="kdToOtherCurrencies()">
             </div>
+        </div>
+        <div class="currency-container">
+            <button class="reset-button" onClick="reset()">RESET</button>
         </div>
     </div>
 </body>
