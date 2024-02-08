@@ -137,4 +137,7 @@ input[type="number"] {
   height: 2rem;
   outline: none;
   border: black 2px solid;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1.5px;
 }
