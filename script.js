@@ -38,8 +38,8 @@ function kdToOtherCurrencies() {
 
 function reset(){
 
-  document.getElementById("dollar").value = 0;
-  document.getElementById("lira").value = 0;
-  document.getElementById("kd").value = 0;
+  document.getElementById("dollar").value = null;
+  document.getElementById("lira").value = null;
+  document.getElementById("kd").value = null;
 
 }
