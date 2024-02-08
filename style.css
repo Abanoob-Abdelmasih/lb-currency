@@ -130,3 +130,11 @@ input[type="number"] {
   background-color: #ff3232;
   box-shadow: rgba(20, 70, 32, 0.2) 0 1px 0 inset;
 }
+
+.reset-button{
+  background-color: red;
+  width: 10rem;
+  height: 2rem;
+  outline: none;
+  border: black 2px solid;
+}
